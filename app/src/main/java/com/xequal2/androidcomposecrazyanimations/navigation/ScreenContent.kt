@@ -44,6 +44,12 @@ fun ScreenContent(
         Spacer(modifier = Modifier.height(8.dp))
 
         Button(
+            onClick = { navHostController.navigate(Screen.DotsAndLinesComposeView.route) },
+            modifier = Modifier.fillMaxWidth(0.7f)
+        ) {
+            Text("Dots and lines")
+        }
+        Button(
             onClick = { navHostController.navigate(Screen.ExplodingSphereCanvas.route) },
             modifier = Modifier.fillMaxWidth(0.7f)
         ) {
