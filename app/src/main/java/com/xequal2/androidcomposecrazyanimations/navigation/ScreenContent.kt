@@ -49,6 +49,13 @@ fun ScreenContent(
         ) {
             Text("Dots and lines")
         }
+
+        Button(
+            onClick = { navHostController.navigate(Screen.CloudOrbWithControls.route) },
+            modifier = Modifier.fillMaxWidth(0.7f)
+        ) {
+            Text("Domain Morping")
+        }
         Button(
             onClick = { navHostController.navigate(Screen.ExplodingSphereCanvas.route) },
             modifier = Modifier.fillMaxWidth(0.7f)

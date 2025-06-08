@@ -13,4 +13,5 @@ sealed class Screen(val route: String) {
     object PongWarsGame : Screen("PongWarsGame")
 
     object DotsAndLinesComposeView : Screen("DotsAndLinesComposeView")
+    object CloudOrbWithControls : Screen("CloudOrbWithControls")
 }
