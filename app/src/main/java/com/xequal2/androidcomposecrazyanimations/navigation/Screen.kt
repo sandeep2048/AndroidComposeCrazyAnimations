@@ -8,4 +8,7 @@ sealed class Screen(val route: String) {
     object ExplodingSphereCanvas : Screen("ExplodingSphereCanvas")
     object TouchGravityCanvas : Screen("TouchGravityCanvas")
     object ShapeMorphingCanvas : Screen("ShapeMorphingCanvas")
+
+
+    object PongWarsGame : Screen("PongWarsGame")
 }

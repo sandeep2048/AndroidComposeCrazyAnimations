@@ -8,6 +8,7 @@ import com.xequal2.androidcomposecrazyanimations.particlesphere.ParticleSphere
 import com.xequal2.androidcomposecrazyanimations.particlesphere.exploding.ExplodingSphereCanvas
 import com.xequal2.androidcomposecrazyanimations.particlesphere.pull.TouchGravityCanvas
 import com.xequal2.androidcomposecrazyanimations.particlesphere.shape.ShapeMorphingCanvas
+import com.xequal2.androidcomposecrazyanimations.pongwars.PongWarsGame
 
 
 @Composable
@@ -21,6 +22,7 @@ fun MainApp() {
         composable(Screen.ExplodingSphereCanvas.route) { ExplodingSphereCanvas() }
         composable(Screen.TouchGravityCanvas.route) { TouchGravityCanvas() }
         composable(Screen.ShapeMorphingCanvas.route) { ShapeMorphingCanvas() }
+        composable(Screen.PongWarsGame.route) { PongWarsGame() }
         composable(Screen.ScreenContent.route) { ScreenContent(navController) }
     }
 }

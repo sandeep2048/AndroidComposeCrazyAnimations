@@ -54,5 +54,18 @@ fun ParticleScreenContent(
         ) {
             Text("Phonepe Symbol")
         }
+        Button(
+            onClick = { navHostController.navigate(Screen.ShapeMorphingCanvas.route) },
+            modifier = Modifier.fillMaxWidth(0.7f)
+        ) {
+            Text("Image")
+        }
+
+        Button(
+            onClick = { navHostController.navigate(Screen.ShapeMorphingCanvas.route) },
+            modifier = Modifier.fillMaxWidth(0.7f)
+        ) {
+            Text("Custom Text and Size")
+        }
     }
 }

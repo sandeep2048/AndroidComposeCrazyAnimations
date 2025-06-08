@@ -36,6 +36,14 @@ fun ScreenContent(
         Spacer(modifier = Modifier.height(8.dp))
 
         Button(
+            onClick = { navHostController.navigate(Screen.PongWarsGame.route) },
+            modifier = Modifier.fillMaxWidth(0.7f)
+        ) {
+            Text("PongWarsGame")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Button(
             onClick = { navHostController.navigate(Screen.ExplodingSphereCanvas.route) },
             modifier = Modifier.fillMaxWidth(0.7f)
         ) {
